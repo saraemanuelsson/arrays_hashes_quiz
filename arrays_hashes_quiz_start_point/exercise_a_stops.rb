@@ -50,3 +50,7 @@ puts stops.fetch(2, 1)
 stops.reverse()
 
 #10 Print out all the stops using a for loop
+
+for stop in stops
+    puts stop
+end
