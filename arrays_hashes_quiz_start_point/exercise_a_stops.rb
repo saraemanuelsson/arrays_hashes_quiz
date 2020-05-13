@@ -46,4 +46,7 @@ puts stops.fetch(-5)
 puts stops.fetch(2, 1)
 
 #9. Reverse the positions of the stops in the array
+
+stops.reverse()
+
 #10 Print out all the stops using a for loop
