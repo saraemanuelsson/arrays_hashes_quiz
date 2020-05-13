@@ -121,3 +121,25 @@ users["Erik"][:home_town] = "Edinburgh"
 users["Erik"][:pets].push(:name => "Fluffy", :species => "dog")
 
 # 10. Add another person to the users hash
+
+users["Hagrid"] = {
+  :twitter => "Hagger",
+  :lottery_numbers => [3, 7, 16, 32],
+  :home_town => "Hogsmeade",
+  :pets => [
+    {
+      :name => "Fluffy",
+      :species => "Three-headed dog"
+    },
+    {
+      :name => "Norbert",
+      :species => "Dragon"
+    },
+    {
+      :name => "Buckbeak",
+      :species => "Hippogriff"
+    }
+  ]
+}
+
+p users["Hagrid"]
