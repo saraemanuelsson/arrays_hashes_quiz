@@ -24,6 +24,9 @@ stops.delete("Livingston")
 stops.delete_at(2)
 
 #7. Print the number of stops there are in the array?
+
+puts stops.length
+
 #8. Show as many ways as you can to return "Falkirk High" from the array?
 #9. Reverse the positions of the stops in the array
 #10 Print out all the stops using a for loop
